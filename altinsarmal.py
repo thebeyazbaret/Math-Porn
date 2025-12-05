@@ -16,7 +16,7 @@ sizes = 15 + radius * 1.5
 ax.scatter(x, y, c=colors, s=sizes, cmap='twilight', alpha=0.8, edgecolors='none')
 ax.axis('off')
 ax.set_aspect('equal')
-plt.figtext(0.5, 0.14, "PHYLLOTAXIS (Vogel Model)", 
+plt.figtext(0.5, 0.14, "Vogel Model", 
             ha="center", color="white", fontsize=20, fontname="Arial", fontweight="bold")
 plt.figtext(0.5, 0.09, r"$\theta_n = n \times 137.508^{\circ} \quad , \quad r_n = c \sqrt{n}$", 
             ha="center", color="#dddddd", fontsize=16)
